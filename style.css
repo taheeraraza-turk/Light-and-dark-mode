@@ -1,0 +1,56 @@
+*{
+    text-align: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#btn {
+    padding: 10px 20px;
+    background-color: #bb6a38;
+    color: white;
+    border: 3px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 2rem ;
+}
+#btn:hover {
+    background-color: #bb6a38;
+}
+
+.container{
+    margin-top: 5rem;
+    display:inline-flexbox;
+}
+h1{
+    font-family:cursive;
+    font-size: 3rem;
+}
+/* give some glowing affect fro button */
+
+#btn:active {
+    background-color: #bb6a38;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* responsive design */
+
+@media screen and (max-width: 690px) {
+    #btn {
+        font-size: 1.3rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+}
+
+/* Give media screen code for smaler screen like mobile ipads */
+
+@media screen and (max-width: 480px) {
+    #btn {
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 1.2rem;
+    }
+}
